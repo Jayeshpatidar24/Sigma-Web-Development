@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Specificity and Cascade</title>
+  <style>
+   
+    h1{
+      background-color: rgb(0, 202, 0);
+      color: black;
+    }
+    .heading{
+      background-color: yellow;
+    }
+    .top{
+      background-color: red;
+    }
+    .main{
+      background-color: purple;
+      color: white;
+    }
+
+    h2{
+      color: grey;
+    }
+
+    h2.one{
+      color: yellow;
+    }
+    h2.two{
+      color: green;
+    }
+    .three{
+      color: whitesmoke;
+    }
+#id{
+  color: rgb(163, 32, 32);
+}
+ 
+  </style>
+</head>
+<body>
+  <h1 class="heading top main">CSS Specificity</h1>
+
+  <h2 id="id" class="one two three">Color of css is ..... </h2>
+</body>
+</html>
