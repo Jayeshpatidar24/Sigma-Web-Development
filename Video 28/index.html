@@ -4,7 +4,57 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CSS Position</title>
+  <style>
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.parent{
+  border: 2px solid black;
+  margin: 50px;
+  padding: 40px;
+  position: relative;
+}
+.box{
+  height: 300px;
+  width: 80vw;
+  margin: 3px;
+  padding: 3px;
+  border: 2px solid;
+}
+
+.box1{
+  background-color: aquamarine;
+  position: relative;
+  left: 20px;
+  top: 10px;
+  /* position: sticky;
+  top: 0;
+  z-index: 1;
+  */
+  /* position: absolute;
+  top: 0; */
+
+}
+.box2{
+  background-color: rgb(255, 224, 71);
+  position: fixed;
+}
+.box3{
+  background-color: rgb(255, 20, 102);
+  position: sticky;
+  top: 0px;
+}
+.box4{ 
+  
+  background-color: rgb(152, 42, 255);
+  position: absolute;
+  top: 10px;
+}
+
+  </style>
 </head>
 <body>
   <div class="parent"> 
