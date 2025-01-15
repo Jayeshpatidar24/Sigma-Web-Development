@@ -3,9 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>CSS variable</title>
+  <style>
+
+    :root{
+      --color : rgb(81, 255, 81);
+      --seccolor : rgb(0, 9, 13);
+      --defpad : 30px;
+       /* --defop : 0.1 ; */
+    }
+
+ul{
+  display: flex;
+  background-color: var(--color) ;
+}
+     
+    ul li{
+      list-style: none;
+    
+      color: var(--seccolor);
+      padding: var(--defpad);
+      opacity: var(--defop);
+    
+    }
+     
+   
+
+  </style>
 </head>
 <body>
+  <div class="nav">
+   <ul>
+    
+    <li>Home</li>
+    <li>About</li>
+    <li>More</li>
+    
+   </ul>
+  </div>
   
 </body>
 </html>
