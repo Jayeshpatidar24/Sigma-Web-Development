@@ -4,8 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Media Queries</title>
+  <style>
+
+@media only screen and (max-width:455px) {
+.boxes{
+  flex-direction: column;
+}
+body{
+  background-color: black;
+}
+ 
+}
+
+
+
+    .boxes{
+      display: flex;
+    }
+
+   
+    .box{
+      height: 300px;
+      width: 300px;
+     margin: 3px;
+     padding: 10px;
+      background-color: greenyellow;
+      border: 2px solid;
+    }
+  </style>
 </head>
 <body>
-  
+ <div class="boxes">
+  <div class="box">First</div>
+  <div class="box">second</div>
+  <div class="box">third</div>
+  </div>
 </body>
 </html>
