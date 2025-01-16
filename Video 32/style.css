@@ -1,0 +1,68 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+.template{
+  margin: 25px;
+  height: 440px;
+  width: 344px;
+  border: 2px solid;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0px 10px 10px; 
+  border-radius: 25px;
+  border: none;
+  
+ 
+  background-image: radial-gradient(rgb(248, 163, 163), rgb(250, 131, 131), rgb(252, 99, 134));
+}
+
+img{
+  width: 330px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 25px;
+ }
+
+ .capsule{
+  margin-left: 10px;
+  margin-top: 4px;
+ }
+ .capsule span:hover{
+  background-color: rgb(255, 96, 96);
+ }
+ .capsule span{
+  padding: 2px 5px 2px 5px;
+  margin: 3px;
+  border: 1px solid rgb(174, 174, 174);
+  border-radius: 25px;
+  color: rgb(255, 255, 255);
+
+ }
+
+ h1{
+  font-family:fantasy;
+  color: white;
+  font-weight: 400;
+ margin-left: 100px;
+ }
+
+ p{
+  color: white;
+  font-size: 25px;
+  padding: 30px;
+  padding-top: 10px;
+  margin-left: -5px;
+  padding-bottom: 0;
+ }
+
+ button{
+  margin-left:115px;
+  margin-top: 20px;
+  padding: 10px;
+ border: 1px rgb(170, 170, 170);
+ border-radius: 25px;
+ }
+
+ button:hover{
+  background-color: pink;
+ }
