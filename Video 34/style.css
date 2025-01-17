@@ -1,0 +1,17 @@
+.cards{
+  border: 2px solid rgb(250, 0, 0);
+  display: flow-root;
+}
+
+ .card{
+  border: 2px solid rgb(0, 119, 255);
+ }
+
+img{
+  float: right;
+
+}
+
+.card:nth-child(4){
+  clear: right;
+}
