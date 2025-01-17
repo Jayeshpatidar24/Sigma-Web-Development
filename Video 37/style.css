@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  position: sticky;
+  top: 0px;  
+}
+ 
+nav{
+  position: sticky;
+  top: 0px;  
+  background-color: black;
+  height: 80px;
+  width: 100vw; 
+
+}
+
+ul{
+  display: flex;
+}
+
+ul li{
+  list-style: none;
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+}
+
+.back{
+  background-color: antiquewhite;
+  display: flex;
+  padding: 30px;
+  margin: 50px;
+}
+
+.box1{
+  background-color: rgb(255, 54, 54);
+  height: 650px;
+  width: 650px;
+  margin-right:100px ;
+}
+.box2{
+  background-color: rgb(69, 255, 69);
+  height: 650px;
+  width: 650px;
+}
+
+ 
+.logo{
+ 
+  margin-left: 1400px;
+ 
+  width: 100px;
+  position: fixed;
+  bottom: 0px;
+  }
+  img{
+    height: 70px;
+    border-radius: 100px;
+    border: 2px solid;
+  }
+
+  img:hover{
+    opacity: 0.5;
+  }
+
+  .cir-box{
+    border: 6px solid aquamarine;
+    padding: 50px;
+    border-radius: 225px;
+    background-color: black;
+    margin: 10px 10px;
+  }
+  h1{
+    margin-left: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(15, 255, 255);
+    font-weight: 400;
+    letter-spacing: 25px;
+  }
+
+  footer{
+    background-color: blanchedalmond;
+    height: 300px;
+    margin: 100px 30px 30px 30px;
+  border: 5px solid rgb(255, 61, 61);
+
+  }
