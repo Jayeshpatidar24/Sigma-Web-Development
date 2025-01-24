@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
 }
-
+/* Theme one */
 :root{
   --color:rgb(16, 0, 0);
   --sec-color:rgb(255, 168, 55);
@@ -11,12 +11,30 @@
   --defop:0.5;
 }
 
+/* Theme Two */
 /* :root{
   --color:rgb(255, 255, 255);
   --sec-color:rgb(132, 0, 172);
   --bgcolor:rgb(255, 231, 126);
   --defop:0.5;
 } */
+
+/* Theme Three */
+ /* :root{
+  --color:rgb(255, 255, 255);
+  --sec-color:rgb(0, 0, 0);
+  --bgcolor:rgb(0, 255, 17);
+  --defop:0.5;
+}   */
+
+/* Theme Four */
+/* :root{
+  --color:rgb(255, 255, 255);
+  --sec-color:rgb(46, 0, 211);
+  --bgcolor:rgb(237, 255, 155);
+  --defop:0.5;
+} */
+
 
 body{
   background-color:var(--bgcolor);
