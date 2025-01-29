@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+     
+    }
+     
+   .nav-bar{
+    background-color: black;
+    display: grid;
+    height: 130px;
+    width: 100vw;
+    grid-template-rows: 2fr 1.2fr;
+
+    
+   }
+
+   .nav-2{
+    border-top: 0.5px solid rgb(112, 112, 112);
+   }
+  
+   .nav-1{
+    display: flex;
+   }
+.logo{
+ height: 80px;
+ padding-left: 80px;
+
+}
+
+.nav1-link{
+  color: white;
+  text-decoration: none;
+  font-weight: 200;
+ 
+  font-size: 15px;
+  
+}
+
+.nav1-box2{
+   margin-top: auto;
+  margin-left:50px;
+  padding-bottom: 10px;
+  width: 35vw;
+  border: 2px solid greenyellow;
+}
+
+.nav1-box3{
+  width: 15vw;
+  border: 2px solid greenyellow;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.nav1-box4{
+  border: 2px solid greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box1{
+  padding: 10px;
+  background-color: rgb(153, 153, 153);
+  border: none;
+  color: blue;
+}
+  </style>
+</head>
+<body>
+  <div class="nav-bar">
+     <div class="nav-1">
+      <div nav1-box1> <img class="logo" src="pngwing.com.png" alt=""> </div>
+      <div  class="nav1-box2"><a class="nav1-link" href="https://www.mercedes-benz.co.in/">Mercedes-benz</a> </div>
+      <div class="nav1-box3"> Privacy Policy/ Provider</div>
+      <div class="nav1-box4">
+        <input class="search-box1" type="text" placeholder="search">
+      </div>
+     </div>
+     <div class="nav-2"></div>
+  </div>
+</body>
+</html>
