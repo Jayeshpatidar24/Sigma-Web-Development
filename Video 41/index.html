@@ -4,8 +4,87 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Exercise-6 Nav using flexbox</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+.logo{
+ 
+  height: 100%;
+  width: 22vw;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.logo-item{
+  height: 55%;
+  margin-right: 5%;
+}
+nav{
+  
+  height: 80px;
+  box-shadow: 2px 2px 15px black;
+  display: flex;
+}
+
+.nav-list{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: end;
+   width: 60vw;
+
+}
+.list-main{
+  display: flex;
+ 
+}
+
+.li-item{
+  padding: 15px;
+  font-size:12px;
+  font-weight: 100;
+  color: rgb(75, 75, 75);
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+ 
+main{
+  height: 72vh;
+  background-color: rgb(32, 32, 32);
+}
+
+.box1{
+  border: 2px red;
+  height: 80%;
+  width: 40%;
+}
+
+  </style>
 </head>
 <body>
-  
+  <header>
+    <nav>
+      <div class="logo"> 
+        <img class="logo-item" src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="">
+      </div>
+    
+      <div class="nav-list">
+        <ul class="list-main" >
+          <div class="li-item">Products</div>
+          <div class="li-item">For business</div>
+          <div class="li-item">Resources</div>
+          <div class="li-item">Support</div>
+          <div class="li-item">Our Company</div>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+  <div class="box1">
+    <img class="box1-logo" src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="">
+  </div>
+  </main>
 </body>
 </html>
