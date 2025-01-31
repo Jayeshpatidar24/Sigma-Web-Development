@@ -54,12 +54,32 @@ main{
   background-color: rgb(32, 32, 32);
 }
 
-.box1{
-  border: 2px red;
-  height: 80%;
-  width: 40%;
+
+.main-box{
+  height: 71vh;
+  width: 99vw;
+  border: 2px solid red;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  }
+
+.box-1 ,.box-2{
+  background-color: green;
+  height: 90%;
+  width: 56vw;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clear: left;
 }
 
+.item-1{
+  display: inline-block;
+
+}
   </style>
 </head>
 <body>
@@ -82,9 +102,18 @@ main{
   </header>
 
   <main>
-  <div class="box1">
-    <img class="box1-logo" src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="">
-  </div>
+    <div class="main-box">
+      <div class="box-1">
+         
+        <img class="box1-logo item-1" src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="">
+      <p class="item-2">A powerful, configurable text editor capable of hex and code editing. Boasts unrivaled performance in handling large files.</p>
+    <button class="item-3">Download Now</button>  
+    </div>
+      <div class="box-2">
+        box2
+      </div>
+    </div>
+ 
   </main>
 </body>
 </html>
