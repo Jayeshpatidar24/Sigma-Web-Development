@@ -3,9 +3,83 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Transform</title>
+  <style>
+    .container{
+      height: 100vh;
+      width: 80vw;
+      background-color: antiquewhite;
+      border: 2px solid;
+      margin: 50px 50px;
+      display: flex;
+    }
+    .box-1{
+      border: 2px solid ;
+      background-color:rgb(255, 221, 221);
+      height: 17%;
+      width: 10%;
+      transform: rotate(45deg);
+
+    }
+
+    .box-2{
+      border: 2px solid ;
+      background-color:rgb(245, 134, 134);
+      height: 17%;
+      width: 10%;
+      transform: rotate(0.25turn);
+
+    }
+    
+            .box-3{
+      border: 2px solid ;
+      background-color:rgb(252, 181, 209);
+      height: 17%;
+      width: 10%;
+      
+      transform: rotatey(80deg);  /*rotatex(20deg) rotatez(20deg); */
+     /* transform: skewY(34deg); */
+      /* transform: translateY(100%) skewX(40deg) translateX(45%); */
+
+    }
+
+    .box-4{
+      border: 2px solid ;
+      background-color:rgb(252, 181, 209);
+      height: 17%;
+      width: 10%;
+      transform: skewY(34deg);
+    }  
+
+    .box-5{
+      border: 2px solid ;
+      background-color:rgb(247, 131, 88);
+      height: 17%;
+      width: 10%;
+      transform: translateY(100%) skewX(40deg) translateX(45%);
+    }  
+ 
+    .box-6{
+      border: 2px solid ;
+      background-color:rgb(160, 68, 105);
+      height: 17%;
+      width: 10%;
+     
+    } 
+    .box-6:hover{
+      transform: translatey(100%);
+    }
+  </style>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="box-1">box 1</div>
+    <div class="box-2">box 2</div>
+    <div class="box-3">box 3</div>
+    <div class="box-4">box 4</div>
+    <div class="box-5">box 5</div>
+    <div class="box-6">box 6</div>
+  </div>
+ 
 </body>
 </html>
