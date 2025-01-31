@@ -1,0 +1,1 @@
+Excercise - 6 solution by @CodeWithHarry
