@@ -1,81 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Excersice - 7 grid practice </title>
+  <title>Grid Excersise 7</title>
   <style>
-.container{
-  border: 2px solid;
-  height: 70vh;
-  width: 50vw;
-  display: grid;
-  grid-row: 100px 100px 100px;
-  grid-column: 200px repeat(5);
-}
+    .container{
+      height: 80vh;
+      width: 80vw;
+      border:2px solid green;
+      background-color: rgb(0, 0, 0);
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      
+    align-items: center;
+    justify-items: center;
 
-.box{
-  width: 220px;
-  height: 160px;
-  background-color: rgb(234, 240, 237);
-   align-content: center;
-  display: grid;
-  justify-content: center;
 
-}
+    }
+    .items{
+      height: 130px; 
+      width: 200px;
+      border: 2px solid rgb(255, 31, 192);
 
-.bit-32{
- height: 30px;
- width: 120px;
- background-color: rgb(46, 255, 46);
- border: none;
- font-size: 12px
-}
+      background-color: aqua;
+    }
+    .item-7{
+      grid-column-start: 2;
+      grid-column-end:3 ;
+    }
+
+    .box-item-1{
+display: grid;
+ overflow:hidden ;
+grid-template-rows: 2fr 1fr 1fr;
+text-align: center;
+    }
+    .nest-item{
+background-color: blueviolet;
+border: 2px solid;
+justify-items:center ;
+align-items: center;
+margin: 0;
+
+ 
+
+    }
 p{
-  font-size: 8px;
-}
-
-.box-2{
-   height: 70vh;
-   width: 80vw;
-   border: 2px solid green;
-   display: grid;
-   align-items: center;
-   display: flex;
-}
-.box-item{
-  height: 300px;
-  width: 200px;
   border: 2px solid;
-
 }
+    button{
+      background-color: black;
+      color: white;
+      padding: 10px 10px;
+       border: none;
+       border-radius: 25px;
+    }
+
+    .iii{
+      background-color: aquamarine;
+      margin: 0;
+      padding: 0;
+      height: 10px;
+    }
   </style>
-</head>
-<body>
+ </head>
+ <body>
   <div class="container">
-
-<div class="box box1">
- <h1>English</h1>
-<button class="bit-32" >32bit Download</button>
- <p>an43nfl</p>
- <p>874391hbfjhrbjg4r24824368reg</p>
-</div>
-<!-- <div class="box box2"></div> -->
-<!-- <div class="box box3"></div>
-<div class="box box4"></div>
-<div class="box box5"></div>
-<div class="box box6"></div>
-<div class="box box7"></div>
-<div class="box box8"></div>
-<div class="box box9"></div>
-<div class="box box10"></div> -->
-
+    <div class="items box-item-1"> 
+      <div class="nest-item">English</div>
+      <div class="nest-item"> <button>Download 64bit</button></div>
+      <div class="nest-item iii"> <p>fdaaaaaafd</p></div>
+    </div>
+    <div class="items">box 2</div>
+    <div class="items">box 3</div>
+    <div class="items">box 4</div>
+    <div class="items">box 5</div>
+    <div class="items">box 6</div>
+    <div class="items item-7">box 7</div>
   </div>
-
-<div class="box-2">
-  <div class="box-item"></div>
-  <div class="box-item"></div>
-  <div class="box-item"></div>
-</div>
-</body>
-</html>
+ </body>
+ </html>
