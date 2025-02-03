@@ -32,13 +32,15 @@
 
     .box-item-1{
 display: grid;
- overflow:hidden ;
+ background-color: antiquewhite;
 grid-template-rows: 2fr 1fr 1fr;
-text-align: center;
+justify-items: center;
+align-items: center;
     }
     .nest-item{
 background-color: blueviolet;
 border: 2px solid;
+
 justify-items:center ;
 align-items: center;
 margin: 0;
@@ -46,9 +48,7 @@ margin: 0;
  
 
     }
-p{
-  border: 2px solid;
-}
+ 
     button{
       background-color: black;
       color: white;
@@ -56,21 +56,19 @@ p{
        border: none;
        border-radius: 25px;
     }
-
-    .iii{
-      background-color: aquamarine;
-      margin: 0;
-      padding: 0;
-      height: 10px;
-    }
+span{
+  background-color: goldenrod;
+ 
+}
+    
   </style>
  </head>
  <body>
   <div class="container">
     <div class="items box-item-1"> 
-      <div class="nest-item">English</div>
+      <div class="nest-item"><span>English</span></div>
       <div class="nest-item"> <button>Download 64bit</button></div>
-      <div class="nest-item iii"> <p>fdaaaaaafd</p></div>
+      <div class="nest-item "> <span>About more</span></div>
     </div>
     <div class="items">box 2</div>
     <div class="items">box 3</div>
