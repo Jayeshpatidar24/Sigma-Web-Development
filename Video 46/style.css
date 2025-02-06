@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  height: 50px;
+  width: 100vw;
+  background-color: rgb(41, 41, 41);
+}
+h1{
+  font-family: "Cinzel", serif;
+  color: black;
+ }
+
+ div{
+  background-color: white;
+  height: 30px;
+  width: 130px;
+  padding-left: 8px;
+  display: flex;
+  align-items: center;
+   }
