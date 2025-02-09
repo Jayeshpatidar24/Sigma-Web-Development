@@ -13,13 +13,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: anime;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-iteration-count: 3;
   }
-  @keyframes .trasnform {
-    
+  @keyframes anime {
+    from{
+      background-color: rgb(146, 90, 15);
+    }
+    to {
+      background-color: aquamarine;
+    }
   }
-img{
-  animation: transform;
-}
+ 
 
   .trasnform{ 
     transform: rotate(4s);
